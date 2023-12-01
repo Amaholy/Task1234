@@ -1,0 +1,128 @@
+.main-navbar {
+  border-bottom: 1px solid #ccc;
+}
+.main-navbar .top-navbar {
+  background-color: #2874f0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.main-navbar .top-navbar .brand-name {
+  color: #fff;
+}
+.main-navbar .top-navbar .nav-link {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.main-navbar .top-navbar .dropdown-menu {
+  padding: 0px 0px;
+  border-radius: 0px;
+}
+.main-navbar .top-navbar .dropdown-menu {
+  padding: 8px 16px;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+}
+.main-navbar .top-navbar .dropdown-menu {
+  width: 20px;
+  text-align: center;
+  color: #2874f0;
+  font-size: 14px;
+}
+.main-navbar .navbar {
+  padding: 0px;
+  background-color: #ddd;
+}
+.main-navbar .navbar .nav-item .nav-link {
+  padding: 8px 20px;
+  color: #000;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-navbar .top-navbar .nav-link {
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+}
+
+.breadcrumb {
+  background-color: #f8f9fa;
+  padding: 10px 0;
+}
+
+.breadcrumb-link {
+  color: #2874f0;
+  text-decoration: none;
+}
+
+.cart-items {
+  text-align: center;
+  margin: auto;
+  max-width: 600px;
+}
+
+.cart-item {
+  margin-bottom: 10px;
+}
+
+.item-name {
+  margin-right: 10px;
+}
+
+.item-quantity {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.remove-item {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.submit-btn {
+}
+
+.order-form-container {
+  display: none;
+}
+
+.order-form-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+#order-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#order-form input,
+#order-form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+#order-form button {
+  background-color: #2874f0;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#policy-link {
+  display: block;
+  margin-top: 15px;
+  color: #2874f0;
+  text-decoration: none;
+}
